@@ -27,6 +27,7 @@ form{
     color: white;
     text-align: center;
     background-color:black;
+    padding:2px;
 }
 
 img{
@@ -46,10 +47,14 @@ img{
 
 #inputform{
     color:black;
+    padding:8px;
+    font-size:20px;
+    margin:auto;
 }
 
 #button{
     color:black
+    
 }
 
 #userForm {

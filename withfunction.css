@@ -1,0 +1,141 @@
+html {
+    position: relative;
+    min-height: 100%;
+    min-width: 340px;
+}
+
+body {
+    background-color: #262628 !important;
+    margin-bottom: 75px;
+}
+
+header {
+    display: block;
+    background-color: #171A21;
+    color: white;
+}
+
+#site-header {
+    background-color: #171A21;
+}
+
+#page-header {
+    background-color: #2D384A;
+}
+
+form{
+    color: white;
+    text-align: center;
+    background-color:black;
+}
+
+img{
+    padding: 15px;
+    margin: auto !important;
+}
+
+#comment{
+    color: white;
+    visibility: hidden !important;
+}
+
+#lists{
+    text-align: center;
+    margin: auto !important;
+}
+
+#inputform{
+    color:black;
+}
+
+#button{
+    color:black
+}
+
+#userForm {
+    color: white;
+    width: 80%;
+}
+
+#userField {
+    width: 100%;
+}
+
+
+#displayUser .friend {
+    max-width: 65%;
+}
+
+
+#main {
+    color: white;
+    background-color: #1C1C1D;
+}
+
+#main a {
+    color: white;
+}
+
+#main a:visited {
+    color: white;
+}
+
+hr {
+    color: #E1E1E1;
+    border-color: #E1E1E1;
+    width: 90%;
+}
+footer {
+    display: block;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    /* Set the fixed height of the footer here */
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #171A21;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:visited {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
